@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(#FF6767, #C6EE28) fixed;
+    margin: 0;
+}
+
+header {
+    background-color: #D91313;
+    height: 65px;
+    width: 100%;
+    /* контент по центру */
+    text-align: center;
+    /* хедер закреплен наверху */
+    position: fixed;
+}
+
+header ul li a {
+    /* у ссылок нет подчеркивания */
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+header ul li {
+    /* у списка отключены маркеры */
+    list-style-type: none;
+    /* элементы построены в ряд */
+    display: inline;
+    /* расстояние между словами */
+    word-spacing: 72px;
+}

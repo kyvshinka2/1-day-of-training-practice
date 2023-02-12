@@ -1,0 +1,222 @@
+body {
+    /* градиент */
+    background: linear-gradient(#FF6767, #C6EE28) fixed;
+    margin: 0;
+}
+
+
+/* картинка в начале сайта */
+
+.fon-img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.logotype-img {
+    width: 100%;
+}
+
+
+/* логотип */
+
+.logotype-div {
+    margin-top: 25px;
+}
+
+
+/* текст под логотипом */
+
+.text-for-logo {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Arial';
+}
+
+
+/* кнопка more info */
+
+.superbutton {
+    /* градиент */
+    background: linear-gradient(180deg, #FF6767 -10.59%, #FF6767 -8.2%, #C6EE28 89.41%);
+    /* закругление углов */
+    border-radius: 100px;
+    /* цвет обводки */
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    /* расстояние между словами */
+    word-spacing: 5px;
+    /* расстояние между буквами */
+    letter-spacing: 5px;
+}
+
+.superbutton:hover {
+    background: linear-gradient(180deg, #d03535 -10.59%, #d03535 -8.2%, #98bc0a 89.41%);
+}
+
+.see-menu {
+    background-image: url(../img/back.png);
+    background-size: 100%;
+    height: 400px;
+}
+
+.see-menu p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* верхний индекс */
+    text-transform: uppercase;
+    padding-top: 15%;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.td-width {
+    width: 200px;
+    background-color: #700000;
+    color: white;
+    padding-left: 5px;
+}
+
+.td-width2 {
+    padding-right: 55px;
+    background-color: #aeff00;
+    color: white;
+    padding-left: 5px;
+}
+
+.name-menu {
+    /* жирность шрифта (от 100 до 700) */
+    font-weight: 600;
+}
+
+table {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    border-spacing: 7px 11px;
+}
+
+.menu table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* картинка */
+
+.img-picture {
+    width: 100%;
+}
+
+
+/* блок с номером телефона */
+
+.number-bottom-menu {
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 4px double rgb(227, 253, 0);
+    margin-bottom: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+/* номер телефона */
+
+.border-text {
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.discount-button {
+    background: linear-gradient(#ff0000, #950000) fixed;
+    border-radius: 15px;
+    width: 220px;
+    height: 70px;
+    color: aliceblue;
+    font-size: 25px;
+    border: none;
+}
+
+.discount input:hover {
+    background: linear-gradient(#980101, #5d0000) fixed;
+    color: aliceblue;
+}
+
+.discount {
+    text-align: center;
+}
+
+.text-for-mail {
+    width: auto;
+    height: auto;
+}
+
+
+/* поле для ввода */
+
+.mail-input {
+    border: 4px double rgb(253, 0, 0);
+    width: 300px;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+
+/* линия */
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 10px;
+    background-color: #a60000;
+    border: none;
+}
+
+
+/* настройки кнопки */
+
+.send-mail {
+    height: 40px;
+    width: 100px;
+    background-color: #aeff00;
+    border: none;
+    color: #5d0000;
+    font-size: 24px;
+}
+
+.send-mail:hover {
+    background-color: #517600;
+    color: aliceblue;
+}
+
+
+/* див с почтами */
+
+.text-for-mail {
+    text-align: center;
+}
+
+.text-mail {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+
+.text2-mail {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vr-time {
+    color: #700000;
+    text-align: center;
+}
+
+
+/* font-family: Arial, Helvetica, sans-serif; */
